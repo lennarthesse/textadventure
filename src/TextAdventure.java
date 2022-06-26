@@ -10,9 +10,8 @@ public class TextAdventure
         // Main loop
         System.out.println("\nNew crash log available! See /crash-logs for further information.");
         Terminal terminal = new Terminal();
-        terminal.start();
 
-        // Endsequence
+        // End sequence
         System.out.println("Disconnecting...");
         try {Thread.sleep(1000);} catch (InterruptedException ignored) {}
 
